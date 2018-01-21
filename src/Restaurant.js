@@ -4,8 +4,14 @@ import './Restaurant.css';
 
 class Restaurant extends Component {
   render () {
+    const { name, handleSelect } = this.props
+    console.log('###### ', handleSelect)
     return (
       <article className="Restaurant">
+        <h3>{ name }</h3>
+        <button onClick={ handleSelect }>
+          yea, i'd go there
+        </button>
       </article>
     );
   }
