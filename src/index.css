@@ -122,3 +122,7 @@ input:not([type="submit"]) {
   padding: 1em 0.5em;
   width: 100%;
 }
+
+ul {
+  list-style-type: none;
+}
